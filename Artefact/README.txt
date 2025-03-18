@@ -1,13 +1,13 @@
 Plugins To Install
 -------------------
-PYTHON
+PYTHON- Thonny
 install firebase_admin
 install matplotlib
 
-HTML / JS
-install chartjs
+HTML / JS- Visual Studio Code
+install chart.js
 install Live Server
-install firebase
+install firebase_admin
 
 Steps To Run Artefact
 ----------------------
