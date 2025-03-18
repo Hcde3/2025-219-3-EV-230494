@@ -1,0 +1,8 @@
+PYTHON
+install firebase_admin
+install matplotlib
+
+HTML / JS
+install chartjs
+install Live Server
+install firebase
