@@ -1,0 +1,430 @@
+<!Doctype html>
+<html lang="eng">
+<head>
+    <title>Portfolio Report</title>
+</head>
+<body>
+<h1>Meeting The Brief</h1>
+<video width="640" height="480" controls>
+    <source src="Meeting The Brief Video.mp4" type="video/mp4">
+</video>
+<h1>Investigation</h1>
+<h2>Interpreting the Brief</h2>
+<p>After reading the brief I went on to the links provided in the brief to get an idea of what my project should be like. After doing so I began to come up with ideas and datasets I could use for my project.</p>
+<h2>Ideas</h2>
+<h3>Stars and their properties</h3>
+<p>This is an interest of mine and was one of my first ideas. Making predictions would be easy as many formulas exist to make predictions already. Unfortunately most data was either too basic or too complicated, failing to be useful.</p>
+<h3>Exoplanets</h3>
+<p>My final idea was exoplanets. I have a very strong interest in the topic and it is very closely related to my desired college course. Many values were influenced by each other and easy relations could be found and useful predictions made. Most data would be recent due to the data from advancements in modern technology.</p>
+<h2>Potential Datasets</h2>
+<a href="https://www.kaggle.com/datasets/jsonali2003/stellar-classification-dataset ">https://www.kaggle.com/datasets/jsonali2003/stellar-classification-dataset </a>
+<p>-	Had useable information but too few rows and columns and many useless values. </p>
+<a href="https://www.kaggle.com/datasets/jsonali2003/stellar-classification-dataset">https://www.kaggle.com/datasets/jsonali2003/stellar-classification-dataset </a>
+<p>-	A lot more data available but this data was overly complex and difficult to use and interpret.</p>
+<a href="https://www.kaggle.com/datasets/waqi786/stars-dataset/data">https://www.kaggle.com/datasets/waqi786/stars-dataset/data</a>
+<p>-	Seemed ideal with good info and size but each entry has many duplicates with contradicting data between these duplicates. Out of over a 1000 entries only 30 unique stars were present. </p>
+<a href="https://www.kaggle.com/datasets/franoisgeorgesjulien/nasa-exoplanet-archive-planetary-systems">https://www.kaggle.com/datasets/franoisgeorgesjulien/nasa-exoplanet-archive-planetary-systems</a>
+<p>-	Ideal dataset as it focuses on an idea I was struggling to find useful data for (exoplanets). The database is very large and has many unique and varied elements. Contains missing info but the worst columns for missing info are not useful anyways.</p>
+<h2>Example Information Systems</h2>
+<a href="https://exoplanetarchive.ipac.caltech.edu/">https://exoplanetarchive.ipac.caltech.edu/</a>
+<p>Very good example of a related information system. Pros( charts are interactive, contains lots of info ) Cons( too much info being shown, interactivity not explained well )<p>
+<a href="https://science.nasa.gov/exoplanets/exoplanet-catalog/">https://science.nasa.gov/exoplanets/exoplanet-catalog/</a>
+<p>Similar but with more flaws. Pros( the information is accessible, charts have good presentation ) Cons( only a little bit of interactivity, charts lack deep analysis )</p>
+<p>The ideal would be somewhere between these two.</p>
+<h1>Plan and Design</h1>
+<h2>Chosen Idea</h2>
+<p>The idea I selected is exoplanets because I have a lot of interest and prior knowledge in the topic.</p>
+<p>My target audience for my information system is astrophysicists and astronomy enthusiasts above the age of 12.</p>
+<p>My information system aims to show the pattern and relation of variables between different exoplanet types providing a general analysis and intersting information about these celestial bodies to my target audience.</p>
+<p>I will be using the Waterfall method of software development to plan and create my project. I will also be aware and conscious of ethical considerations especially in the user form. While personal information is collected, the form is completely voluntary and collects no more data than name and age.</p>
+<h2>Meeting Brief Requirements</h2>
+<p>My program will meet the basic requirements by creating a python program to extract data from my dataset, clean it and store it in a database.</p>
+<p>A second Python program will read the clean data from my database and analyse it in a variety of ways including by categorising the exoplanets and finding averages. I will display at least 2 visualisations in the form of basic graphs and charts all with labels and titles. All my analysis will be sent to my database.</p>
+<p>I will create a web interface which displays the data from my analysis.</p>
+<p>My program will meet the advanced requirements by making the webpage graphs interactive, and I will have a section at the bottom of my main page which will help inform users further about particular aspects of my topic.</p>
+<p>Finally, I will have a form related to my dataset, collect user data and store this data in a Firebase database. The data collected will contain at least three different data types, most notably strings, integers and Booleans. I will validate this data and display a summary of the data on the form.</p>
+<h2>Technologies Used</h2>
+<p>The technologies I will use include Firebase to store and retrieve data, VS Code and Thonny to code and run my programs, matplotlib to display graphs in Python and ChartJS for the graphs on my webpage. I will be using Python for the cleaning, analsysis and basic graphs and HTML/CSS and JS for the website and interactivity. I will use LiveServer to run my website and OBSStudio and Adobe Premier Pro to record and edit the video.</p>
+<h2>Planning Diagrams</h2>
+<h3>System Architecture Diagram</h3>
+<img src="System Architecture Diagram.png" width="1000" height="500" id="whiteback">
+<h3>Wireframe Diagram</h3>
+<img src="Wireframe.png" width="750" height="1000" id="whiteback">
+<h2>Flowcharts</h2>
+<h3>Reading and Cleaning Flowchart</h3>
+<img src="Reading & Cleaning Flowchart.jpg" width="2000" height="1000">
+<h3>Analytics Flowchart</h3>
+<img src="Analytics Flowchart.jpg" width="2000" height="1000">
+<h3>Index and Form Flowcharts</h3>
+<img src="Index and Form Flowcharts.jpg" width="2000" height="1000">
+<h1>Create</h1>
+<h2>Progress Log</h2>
+<div id="border">
+    <h3>Week 1-2</h3>
+    <ul>
+        <li>Investigated ideas for brief</li>
+        <li>Searched on Kaggle for datasets broadly related to Astronomy</li>
+        <li>Chose to focus on Exoplanets and began research</li>
+        <li>Found a suitable dataset for Exoplanets </li>
+    </ul>
+</div>
+<div id="border">
+    <h3>Week 3-4</h3>
+    <ul>
+        <li>Planned which graphs to display</li>
+        <li>Outlined which steps are needed to achieve brief requirements</li>
+        <li>Designed a Wireframe of the Information System and Survey</li>
+        <li>Designed a System Architecture Diagram and Flowcharts of processes</li>
+    </ul>
+</div>
+<div id="border">
+    <h3>Week 5-6</h3>
+    <ul>
+        <li>Began work on data extraction and cleaning</li>
+        <li>Dataset read via Python and planets alongside their values were put into a dictionary</li>
+        <li>typecheck() function made to ensure values were valid</li>
+        <li>dataclean() function made to remove illegal characters so data can be sent to Firebase</li>
+        <li>First successful sending of data from the dataset into Firebase</li>
+    </ul>
+</div>
+<div id="border">
+    <h3>Week 7-8</h3>
+    <ul>
+        <li>Invalid data in dataset put into new dictionary to be cleaned</li>
+        <li>Decided on which values are important and filtered data being sent to Firebase using that</li>
+        <li>Printed how often each property was missing from data</li>
+        <li>Began work on analytics</li>
+        <li>Database read via Python and exoplanets divided by category</li>
+    </ul>
+</div>
+<div id="border">
+    <h3>Week 9-10</h3>
+    <ul>
+        <li>Found average of each property for each exoplanet category</li>
+        <li>Printed the averages of the exoplanet categories</li>
+        <li>Made a radius chart using the average radius of each exoplanet category</li>
+        <li>Tallied up how often each telescope discovered an exoplanet in the dataset and made a pie chart using this</li>
+        <li>Made a list of all radii and masses and used these to make a scatter plot</li>
+        <li>Made a pie chart showing frequency of each exoplanet category in the dataset</li>
+        <li>Data used in graphs and analytics sent to Firebase</li>
+    </ul>
+</div>
+<div id="border">
+    <h3>Week 11-12</h3>
+    <ul>
+        <li>Began work on information system</li>
+        <li>Read graphical data from Firebase and made the planet distribution, average radius, radius to mass ratio and telescope frequency charts</li>
+        <li>Created inputs for chart interaction and made new charts with user inputs</li>
+        <li>Fixed problem where new and old charts overlapped instead of replacing each other</li>
+        <li>Read analytical data from Firebase and made an informative section which outputted answers</li>
+        <li>Began work on survey</li>
+        <li>Made user inputs and sent inputs to Firebase when submitted and verified</li>
+        <li>Added user data graphs to survey and a page refresh when the form is submitted</li> 
+    </ul>
+</div>
+<h2>Test Tables</h2>
+<p>I did unit testing and white-box testing through out my project. Below is a test table showing some of the testing I carried out.</p>
+<h3>Information System – Pie chart interaction </h3>
+<table>
+    <tr bgcolor="grey">
+    <th>ID</th>
+    <th>Description</th>
+    <th>Test Data</th>
+    <th>Expected Results</th>
+    <th>Actual Results</th>
+    <th>Pass</th>
+    </tr>
+    <tr bgcolor="grey">
+        <td>1</td>
+        <td>Clicking ticked checkboxes</td>
+        <td>Each Category</td>
+        <td>Category removed from chart</td>
+        <td>Category removed from chart</td>
+        <td>Yes</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>2</td>
+        <td>Clicking unticked checkboxes</td>
+        <td>Each Category</td>
+        <td>Category added to chart</td>
+        <td>Category added to chart</td>
+        <td>Yes</td>
+    </tr>
+</table>
+<h3>Information System – Radius chart interaction  </h3>
+<table>
+    <tr bgcolor="grey">
+    <th>ID</th>
+    <th>Description</th>
+    <th>Test Data</th>
+    <th>Expected Results</th>
+    <th>Actual Results</th>
+    <th>Pass</th>
+    </tr>
+    <tr bgcolor="grey">
+        <td>1</td>
+        <td>Adding category to chart</td>
+        <td>Earthlikes</td>
+        <td>Category added</td>
+        <td>Category added</td>
+        <td>Yes</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>2</td>
+        <td>Removing category from chart</td>
+        <td>Earthlikes</td>
+        <td>Category removed</td>
+        <td>Category removed</td>
+        <td>Yes</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>3</td>
+        <td>Adding category already on chart> This input failed so I prevented any categories from being added to the chart if they are already on it.</td>
+        <td>Earthlikes</td>
+        <td>Alert corrects mistake</td>
+        <td>Category added</td>
+        <td>No</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>4</td>
+        <td>Removing category not on chart</td>
+        <td>Jupiterlikes</td>
+        <td>Alert corrects mistake</td>
+        <td>Alert corrects mistake</td>
+        <td>Yes</td>
+    </tr>
+</table>
+<h3>User Survey – Check age input is valid ( positive number )</h3>
+<table>
+    <tr bgcolor="grey">
+    <th>ID</th>
+    <th>Description</th>
+    <th>Test Data</th>
+    <th>Expected Results</th>
+    <th>Actual Results</th>
+    <th>Pass</th>
+    </tr>
+    <tr bgcolor="grey">
+        <td>1</td>
+        <td>Check normal age input valid</td>
+        <td>18</td>
+        <td>valid</td>
+        <td>valid</td>
+        <td>Yes</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>2</td>
+        <td>Check empty age input invalid</td>
+        <td>Empty String</td>
+        <td>invalid</td>
+        <td>invalid</td>
+        <td>Yes</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>3</td>
+        <td>Check negative age input invalid> This input failed so I prevented a form submission if the age was under 0.</td>
+        <td>-18</td>
+        <td>invalid</td>
+        <td>valid</td>
+        <td>No</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>4</td>
+        <td>Check negative age input invalid</td>
+        <td>-18</td>
+        <td>invalid</td>
+        <td>invalid</td>
+        <td>Yes</td>
+    </tr>
+</table><br>
+<img src="Survey Age Validation Code.png">
+<h3>User Survey - Check name inputs are valid (not empty strings and no repeats)</h3>
+<table>
+    <tr bgcolor="grey">
+    <th>ID</th>
+    <th>Description</th>
+    <th>Test Data</th>
+    <th>Expected Results</th>
+    <th>Actual Results</th>
+    <th>Pass</th>
+    </tr>
+    <tr bgcolor="grey">
+        <td>1</td>
+        <td>Check name inputs valid</td>
+        <td>"John" "Doe"</td>
+        <td>valid</td>
+        <td>valid</td>
+        <td>Yes</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>2</td>
+        <td>Check name inputs valid> This input failed so I made both the first and last names required.</td>
+        <td>"John" ""</td>
+        <td>invalid</td>
+        <td>valid</td>
+        <td>No</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>3</td>
+        <td>Check name inputs valid</td>
+        <td>"" "Doe"</td>
+        <td>invalid</td>
+        <td>invalid</td>
+        <td>Yes</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>4</td>
+        <td>Prevent form repeats> This input failed so I prevented a form submission if the name was already in the database.</td>
+        <td>"John" "Doe"</td>
+        <td>invalid</td>
+        <td>valid</td>
+        <td>No</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>5</td>
+        <td>Prevent form repeats</td>
+        <td>"John" "Doe"</td>
+        <td>invalid</td>
+        <td>invalid</td>
+        <td>Yes</td>
+    </tr>
+</table>
+<h2>Information System Chart Problem</h2>
+<p>The most major problem that I encountered through the course of my project was a visual flaw in my charts after attempting to renew them when interacted with. When interacted with the charts would be drawn again with the new parameters and the old ones would be destroyed. The issue with this method was that when hovering over the chart the old one would appear and disappear making a very visually unappealing bug.</p>
+<p>I came to the conclusion that the chart.destroy() function was not running as intended and the old charts were not being removed from the canvas. My solution to this problem was to remake the functions in which I renew the charts to instead update them. When using the chart.update() function you can simply change the chart parameters and update the same chart without having to replace it fully solving this problem.</p></p>
+<img src="Information System Chart Problem destroy.png" width="500" height="500">
+<img src="Information System Chart Problem.png" width="500" height="500" floating="left">
+<h2>Analytics Algorithm</h2>
+<p>The primary function for the algorithm used in the analytics part of my project is to separate every exoplanet in the database into their respective exoplanet categories. This is done using their properties such as mass, radius and year length. Once this is done the averages of each property can be found for each category.</p>
+<img src="Pseudocode Source.png">
+<h3>Pseudocode of Algorithm</h3>
+<div id="pseudocode"> 
+    <p id="pseudocode">.Analytics Start</p>
+    <p id="pseudocode">.Initialise planet category dictionaries</p>
+    <p id="pseudocode">.For each planet in exoplanet dataset</p>
+    <p id="pseudocode">..Mass = planet earth masses</p>
+    <p id="pseudocode">..Radius = planet earth radii</p>
+    <p id="pseudocode">..Year length = planet orbital period in days</p>
+    <p id="pseudocode">..If mass less than 2 and radius less than 2.5</p>
+    <p id="pseudocode">...Add planet to Earthlike dictionary</p>
+    <p id="pseudocode">..Else if mass less than 10 and radius less than 4</p>
+    <p id="pseudocode">...Add planet to Super Earth dictionary</p>
+    <p id="pseudocode">..Else if mass less than 17 and radius less than 8</p>
+    <p id="pseudocode">...Add planet to Mega Earth dictionary</p>
+    <p id="pseudocode">..Else if mass less than 10 and radius less than 4</p>
+    <p id="pseudocode">...Add planet to Super Earth dictionary</p>
+    <p id="pseudocode">..Else if year length less than 10</p>
+    <p id="pseudocode">...Add planet to Hot Jupiter dictionary</p>
+    <p id="pseudocode">..Else if mass less than 125</p>
+    <p id="pseudocode">...Add planet to Neptunelike dictionary</p>
+    <p id="pseudocode">..Else if planet jupiter masses less than 75</p>
+    <p id="pseudocode">...Add planet to Jupiterlike dictionary</p>
+    <p id="pseudocode">..Else add planet to Brown Dwarf dictionary</p>
+</div>
+<h1>Evaluation</h1>
+<p>In conclusion, I believe this final artifact does indeed meet the basic and advanced requirements of the brief   . I believe I used my coding and design abilities in a highly effective manner. I am satisfied with how this artifact has been made and I am satisfied with its functionality.</p>
+<p>Data was successfully extracted and cleaned from the dataset and stored effectively. I believe this data was analysed effectively and I even learned new information through my analysis despite already having a high degree of knowledge on the topic.</p>
+<p>The data was managed effectively with the use of python data structures throughout the Python code. I was successful in making visualisations of this analysis and having them clearly labelled.</p>
+<p>I also confidently believe that my information system met the brief requirements. Information was properly provided on the website and multiple interactive visualisations were displayed. Categories on these interactive visualisations could be filtered and labels were shown when hovering over elements.</p>
+<p>Aswell my form achieved all the brief requirements. Three types of data were collected; string, integer and Boolean. This data would not be stored if it was invalid. Stored data was then summarised and displayed below the form.</p>
+<p>I also met brief requirements by having a seperate section of my information system dedicated to informing the decisions of astronomers and providing useful analysed information.</p>
+<br>
+<p>While I did my best in producing this artifact there is room for improvement in the future. Notably I was too ambitious with the number of graphs I thought I would display on my information system. If given more time I would've implemented more interactive visualisations and potentially analysed the stars these exoplanets orbit.</p>
+<h1>References</h1>
+<a href="https://www.kaggle.com/">https://www.kaggle.com/</a>
+<p>contained my chosen dataset</p>
+<a href="http://exoplanetarchive.ipac.caltech.edu">http://exoplanetarchive.ipac.caltech.edu</a>
+<p>for being the source of this dataset</p>
+<a href="https://firebase.google.com/">https://firebase.google.com/</a>
+<p>was used as my databas</p>
+<a href="https://en.wikipedia.org/wiki/Exoplanet">https://en.wikipedia.org/wiki/Exoplanet</a>
+<p>was used for information about exoplanet categories</p>
+<a href="https://matplotlib.org/">https://matplotlib.org/</a>
+<p>was used in Python to make visualisations</p>
+<a href="https://www.chartjs.org/">https://www.chartjs.org/</a>
+<p>was used in JavaScript to make visualisations</p>
+<a href="https://spaceengine.org/">https://spaceengine.org/</a>
+<p>for the background images</p>
+<a href="https://miro.com/app/dashboard/">https://miro.com/app/dashboard/</a>
+<p>for creating flowcharts</p>
+<a href="https://balsamiq.cloud/#">https://balsamiq.cloud/#</a>
+<p>for creating wireframe diagrams</p>
+<a href="https://thonny.org/">https://thonny.org/</a>
+<p>for coding and running Python</p>
+<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>
+<p>for coding and running Html,CSS and JS</p>
+<a href="https://obsproject.com/">https://obsproject.com/</a>
+<p>for recording video and audio</p>
+<a href="https://www.adobe.com/ie/products/premiere.html">https://www.adobe.com/ie/products/premiere.html</a>
+<p>for editing video and audio</p>
+<h1>Word Count</h1>
+<table>
+    <tr bgcolor="grey">
+        <th>Section</th>
+        <th>Word Count</th>
+    </tr>
+    <tr bgcolor="grey">
+        <td>1.  Meeting the Brief</td>
+        <td>0</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>2.	Investigation</td>
+        <td>330</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>3.	Plan and Design</td>
+        <td>388</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>4.	Create</td>
+        <td>1031</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>5.	Evaluation</td>
+        <td>278</td>
+    </tr>
+    <tr bgcolor="grey">
+        <td>Total:</td>
+        <td>2,027</td>
+    </tr>
+</table>
+</body>
+<style>
+    body {
+      background-image: url("mosaic00007.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: white;
+    }   
+
+    div#border {
+        border-style: solid;
+    }
+
+    img#whiteback {
+        background-color: white;
+    }
+
+    div#pseudocode {
+        background-color: rgb(202, 255, 171);
+    }
+
+    h1 {
+    color: red;
+    }
+
+    h2 {
+    color:darkorange
+    }
+
+    h3 {
+    color:yellow
+    }
+
+    p#pseudocode {
+        color: green;
+        font-family: 'Courier New', monospace;
+    }
+</style>
+</html>
